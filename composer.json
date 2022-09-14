@@ -1,0 +1,25 @@
+{
+    "name": "Asset1996/posts",
+    "description": "The first package.",
+    "license": "MIT",
+    "authors": [{
+        "name": "Asset",
+        "email": "khaitbay96@gmail.com"
+    }],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Asset1996\\Posts\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Asset1996\\Posts\\Providers\\PostsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
